@@ -12,5 +12,5 @@ public class WeaponMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	}
+	}//ikisugi
 }
