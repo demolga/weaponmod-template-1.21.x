@@ -1,5 +1,7 @@
 package net.demolga.weaponmod;
 
+import net.demolga.weaponmod.block.ModBlocks;
+import net.demolga.weaponmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +14,7 @@ public class WeaponMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	}//ikis
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+	}
 }
